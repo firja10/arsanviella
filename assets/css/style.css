@@ -1,0 +1,60 @@
+.bg-1{
+    background-image:url('D:/XAMPP/htdocs/arsanviella/assets/bg-1.png');
+    background-color:#E44141;
+    background-repeat: no-repeat;
+}
+
+
+
+.bg-2{
+    background-image:url('D:/XAMPP/htdocs/arsanviella/assets/bg-2.png');
+    background-color:#E44141;
+    background-repeat: no-repeat;
+}
+
+.logo-utama {
+    width:30%;
+    margin-top:70px;
+}
+
+.logo-kiri{
+    width:70%;
+}
+
+.kiri{
+    text-align:center;
+}
+.kanan{
+    text-align: left;
+    margin-right:20px;
+    font-size:70px;
+    margin-top:20px;
+    color:#fff;
+    text-shadow: 5px 5px black;
+}
+
+#family-button{
+    font-size:30px;
+    border-radius:10px;
+    border-color:#FF0000;
+    border-width:5px;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-right:15px;
+    padding-left:15px;
+    box-shadow: 4px 5px black;
+    font-family: 'Montserrat';
+}
+
+#learn-more{
+    margin-top:100px;
+}
+
+#tombol-kanan{
+    font-size:30px;
+}
+
+#icon-learnmore{
+    font-size:35px;
+    display: inline;
+}
