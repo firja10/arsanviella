@@ -1,0 +1,29 @@
+<html>
+<head>
+<title>Load tanpa refresh</title>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js" >
+</script>
+
+<script type="text/javascript">
+ $(document).ready(
+    function(){
+   $("#klikdata").click(function(){
+    document.getElementById('tampung').innerHTML = "Fathia Dut Dut";
+   });
+  }
+ );
+</script>
+</head>
+<body>
+<center>
+ <h5>Dibawah ini adalah tempat menampilkan data dari file halaman2.html</h5>
+ <a href="#" id="klikdata">Tampil Data</a><br />
+ <div id="tampung"></div>
+</center>
+</body>
+
+<!-- <script>
+   document.getElementById('tampung').innerHTML = 'Fathia Kentut';
+</script> -->
+
+</html>
