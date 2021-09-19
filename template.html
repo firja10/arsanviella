@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Arsanviella</title>
+    <title>Halaman Arsanviella</title>
     <link rel="shortcut icon" href="assets/Arsanviella.png" type="image/x-icon">
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js" ></script>
 
@@ -15,7 +15,7 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 
-
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
 
@@ -178,6 +178,24 @@
      font-size: calc(10px + (12 - 10) * ((100vw - 360px) / (1600 - 360))) !important
  }
 
+
+ .container-fluid footer .list-unstyled li a {
+    color:#fff;
+ }
+
+
+ .container-fluid footer .list-unstyled li a:hover{
+    color:#FF0000;
+    text-decoration: none;
+ }
+
+
+
+
+
+
+
+
       </style>
 
 
@@ -227,10 +245,8 @@ data-aos-duration="3000">
                   <div class="col-xl-2 col-md-4 col-sm-4 col-12">
                       <h6 class="mb-3 mb-lg-4 bold-text "><b>MENU</b></h6>
                       <ul class="list-unstyled">
-                          <li>Home</li>
-                          <li>About</li>
-                          <li>Blog</li>
-                          <li>Portfolio</li>
+                          <li> <a href="">Home</a> </li>
+                          <li><a href="#sejawat" onclick="Sejawat()" id = "fam">Sejawat</a></li>
                       </ul>
                   </div>
                   <div class="col-xl-2 col-md-4 col-sm-4 col-12">
@@ -254,6 +270,16 @@ data-aos-duration="3000">
       </div>
   </footer>
 </div>
+
+
+<!-- <div id="preloader"> <center>
+  
+
+</center>  </div> -->
+
+
+
+
 
 
 
@@ -315,6 +341,22 @@ beranda.classList.remove("active");
 </script> -->
 
 
+
+<script>
+  !(function ($) {
+    "use strict";
+
+    // Preloader
+    $(window).on("load", function () {
+        if ($("#preloader").length) {
+            $("#preloader")
+                .delay(100)
+                .fadeOut("slow", function () {
+                    $(this).remove();
+                });
+        }
+    });});
+</script>
 
 
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
