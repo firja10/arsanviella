@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Halaman Arsanviella</title>
+    <link rel="shortcut icon" href="assets/Arsanviella.png" type="image/x-icon">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js" ></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <script type="text/javascript" src="assets/js/jquery.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+
+
+ 
+
+
+
+    <style>
+           #nav {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: #D4D4D4;
+        }
+        
+        #image-footer{
+          width:150px;
+        }
+        
+        #nav li {
+          float: left;
+        }
+        
+       #nav li a {
+          display: block;
+          color: #FF0000;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          font-weight: 500;
+          font-size:25px;
+        }
+        
+       #nav li a:hover {
+          background-color: #FF0000;
+          color:#ffff;
+          text-decoration: none;
+        }
+        
+
+       #nav li .active {
+          background-color: #FF0000;
+          color:#ffff;
+          text-decoration: none;
+        }
+
+        #arsan{
+            width:35px;
+        }
+
+        .badan{
+          padding:30px 25px;
+          text-align: center;
+          animation-delay: 5s;
+          transition-delay:5s;
+          /* transition-property:; */
+          transition-duration: 2s;
+          margin-bottom:20px;
+        }
+
+        .halaman{
+          margin-top:200px;
+          
+        }
+
+        #judul-home {
+          color:#FF0000;
+          text-align: center;
+          font-size:50px;
+        }
+
+        /* #home {
+            display:block;
+        } */
+
+        #input-saya {
+            width:40%;
+        }
+        #filter-text{
+            color:#FF0000;
+            font-size:20px;margin-top:10px;
+        }
+
+
+        .pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  font-size:20px;
+  text-decoration: none;
+}
+
+.pagination a:hover{
+    color:white;
+    background-color: #FF0000;
+}
+
+.container {
+
+    margin-bottom:200px;
+}
+
+
+#jumlah-mahasiswa{
+    color:black;
+    font-weight: 500;
+    font-size:25px;
+}
+
+#jumlah{
+    color:white;
+    -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: red;
+}
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+
+
+ .container-fluid {
+     overflow: hidden;
+     margin-top: 250px;
+     background: #262626;
+     color: #627482 !important;
+     margin-bottom: 0;
+     padding-bottom: 0
+ }
+
+ small {
+     font-size: calc(12px + (15 - 12) * ((100vw - 360px) / (1600 - 360))) !important
+ }
+
+ .bold-text {
+     color: #989c9e !important
+ }
+
+ .mt-55 {
+     margin-top: calc(50px + (60 - 50) * ((100vw - 360px) / (1600 - 360))) !important
+ }
+
+ h3 {
+     font-size: calc(34px + (40 - 34) * ((100vw - 360px) / (1600 - 360))) !important
+ }
+
+ .social {
+     font-size: 21px !important
+ }
+
+ .rights {
+     font-size: calc(10px + (12 - 10) * ((100vw - 360px) / (1600 - 360))) !important
+ }
+
+
+ .container-fluid footer .list-unstyled li a {
+    color:#fff;
+ }
+
+
+ .container-fluid footer .list-unstyled li a:hover{
+    color:#FF0000;
+    text-decoration: none;
+ }
+
+
+
+
+
+
+
+
+      </style>
+
+
+    <title>Arsanviella - Halaman</title>
+</head>
+<body>
+
+<!-- <div class="content">
+
+
+
+<div class="menu"> -->
+    <ul id = "nav">
+        <li><a href="#"><img src="assets/Arsanviella.png" alt="" id = "arsan"></a></li>
+        <li><a href="#home"  onclick="Home()" id = 'beranda'>Home</a></li>
+        <li><a href="#sejawat" onclick="Sejawat()" id = "fam" >Sejawat</a></li>
+        <li><a href=""  ></a></li>
+      </ul>
+<!-- </div> -->
+
+
+
+<div id="badan"> 
+
+
+
+
+
+</div>
+
+<!-- </div> -->
+
+
+<!-- <div id="aos-aos" data-aos="fade-up"      
+data-aos-duration="3000">
+  <h1>Hallo</h1>
+</div> -->
+
+<div class="container-fluid pb-0 mb-0 justify-content-center text-light ">
+  <footer>
+      <div class="row my-5 justify-content-center py-5">
+          <div class="col-11">
+              <div class="row ">
+                  <div class="col-xl-8 col-md-4 col-sm-4 col-12 my-auto mx-auto a">
+                      <h3 class="text-muted mb-md-0 mb-5 bold-text"> <img src="assets/Arsanviella.png" alt="" id = "image-footer"> <br> Arsanviella </h3>
+                  </div>
+                  <div class="col-xl-2 col-md-4 col-sm-4 col-12">
+                      <h6 class="mb-3 mb-lg-4 bold-text "><b>MENU</b></h6>
+                      <ul class="list-unstyled">
+                          <li> <a href="">Home</a> </li>
+                          <li><a href="#sejawat" onclick="Sejawat()" id = "fam">Sejawat</a></li>
+                      </ul>
+                  </div>
+                  <div class="col-xl-2 col-md-4 col-sm-4 col-12">
+                      <h6 class="mb-3 mb-lg-4 text-muted bold-text mt-sm-0 mt-5"><b>ADDRESS</b></h6>
+                      <p class="mb-1">605, RATAN ICON BUILDING</p>
+                      <p>SEAWOODS SECTOR</p>
+                  </div>
+              </div>
+              <div class="row ">
+                  <div class="col-xl-8 col-md-4 col-sm-4 col-auto my-md-0 mt-5 order-sm-1 order-3 align-self-end">
+                      <p class="social text-muted mb-0 pb-0 bold-text"> <span class="mx-2"><i class="fa fa-facebook" aria-hidden="true"></i></span> <span class="mx-2"><i class="fa fa-linkedin-square" aria-hidden="true"></i></span> <span class="mx-2"><i class="fa fa-twitter" aria-hidden="true"></i></span> <span class="mx-2"><i class="fa fa-instagram" aria-hidden="true"></i></span> </p><small class="rights"><span>&#174;</span> Arsanviella All Rights Reserved.</small>
+                  </div>
+                  <div class="col-xl-2 col-md-4 col-sm-4 col-auto order-1 align-self-end ">
+                      <h6 class="mt-55 mt-2 text-muted bold-text"><b>ANIRUDH SINGLA</b></h6><small> <span><i class="fa fa-envelope" aria-hidden="true"></i></span> anirudh@gmail.com</small>
+                  </div>
+                  <div class="col-xl-2 col-md-4 col-sm-4 col-auto order-2 align-self-end mt-3 ">
+                      <h6 class="text-muted bold-text"><b>RISHABH SHEKHAR</b></h6><small><span><i class="fa fa-envelope" aria-hidden="true"></i></span> rishab@gmail.com</small>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </footer>
+</div>
+
+
+<!-- <div id="preloader"> <center>
+  
+
+</center>  </div> -->
+
+
+
+
+
+
+
+<script>
+//   $(document).ready(
+//      function(){
+ 
+//    $("#home").on('click', function() {
+//  document.getElementById("badan").innerHTML = '<div> <h1> Beranda </h1></div>';
+//  }); 
+//  });
+
+
+function Home() {
+
+//  let hal = window.location.href = 'sejawat.html';
+let homes =  document.getElementById("badan").innerHTML = 
+"<div class = 'halaman' data-aos='zoom-in-up' id = 'home'> <div class = 'container'> <center>  <div class = 'row'> <div class = 'col-md-12'><h1 id = 'judul-home'> Arsanviella</h1> <br> <p>Definisi Nama Angkatan</p> </div> </div> </center></div>     <br><div class='container'><div class='row'><div class='col-md-12'><center><h1 id = 'judul-home'> Kami Ada Di Sini</h1></center><br><center><iframe src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621'frameborder='0'style='border: 0; width: 70%; height: 290px;' allowfullscreen ></iframe></center><br><center><span id = 'jumlah-mahasiswa'> <span id = 'jumlah'>262</span>  Mahasiswa</span></center></div></div></div></div>";
+
+
+
+
+let beranda = document.getElementById('beranda');
+let fam = document.getElementById('fam');
+beranda.className+='active';
+fam.classList.remove("active");
+
+}
+
+function Sejawat() {
+  document.getElementById("badan").innerHTML = "<div class = 'halaman' data-aos='zoom-in' id = 'sejawat'> <div class = 'comtainer'> <center>  <div class = 'row'> <div class = 'col-md-12'><h1> <form action=''><input type='text' class = 'form-control' placeholder='Silakan Isi' id = 'input-saya'><p id = 'filter-text'>Filter By :</p><div class='pagination'><a href='#'>&laquo;</a><a href='#'>Semua</a><a href='#'>A</a><a href='#'>B</a><a href='#'>C</a><a href='#'>D</a><a href='#'>...</a><a href='#'>&raquo;</a> </div></form></h1></div> </div> </center></div>  </div>";
+
+
+
+  let beranda = document.getElementById('beranda');
+let fam = document.getElementById('fam');
+fam.className+='active';
+beranda.classList.remove("active");
+
+}
+ 
+ </script>
+
+
+<!-- <script>
+  	
+    $(document).ready(function () {
+      $(function(){
+    var current = location.pathname;
+    $('#nav li a').each(function(){
+        var $this = $(this);
+        // if the current path is like this link, make it active
+        if($this.attr('href').indexOf(current) !== -1){
+            $this.addClass('active');
+        }
+    });
+});
+});
+</script> -->
+
+
+
+<script>
+  !(function ($) {
+    "use strict";
+
+    // Preloader
+    $(window).on("load", function () {
+        if ($("#preloader").length) {
+            $("#preloader")
+                .delay(100)
+                .fadeOut("slow", function () {
+                    $(this).remove();
+                });
+        }
+    });});
+</script>
+
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>   
+  AOS.init(); 
+</script>
+   
+      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>    
+</body>
+</html>
